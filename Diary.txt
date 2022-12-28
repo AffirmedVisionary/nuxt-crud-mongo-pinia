@@ -1,0 +1,19 @@
+Assets folder holds tailwind css main file
+
+Server
+in /db database connection was made. theh connection string in env was used through useRunntime
+
+in /models Created database models using mongoose
+
+in /validations.ts used Joi to create vailidation rules
+
+in /api routes were created for get, post, put, delete, create CRUD applications
+
+Plugins
+this is where all the app.use() functions go in seperate files.
+
+Composables
+Store - export const `use + mpdel + store`; state as a function that returns an object, actions, mutations, getters as objects
+
+TODO:
+- product images input to an array
